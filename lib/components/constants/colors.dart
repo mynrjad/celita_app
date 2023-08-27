@@ -6,4 +6,4 @@ const CEppSecondaryColor = Color(0xFFFF6157);
 const CEppAccentColor = Color(0xFF475AFF);
 
 //Onboarding colors.
-const CEppOnboardingColor = Colors.white;
+const CEppOnboardingColor = Color(0xFFFFFCF6);
