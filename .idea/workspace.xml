@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added Image strings.">
-      <change afterPath="$PROJECT_DIR$/lib/components/constants/sizes.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/components/constants/text_strings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added sizes and text strings for call.">
+      <change afterPath="$PROJECT_DIR$/lib/components/features/authentication/models/model_onboarding.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693163997540</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added sizes and text strings for call.">
+      <created>1693164841020</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693164841020</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +165,7 @@
     <MESSAGE value="Added dart for Onboarding Screen." />
     <MESSAGE value="Added image assets and color theme." />
     <MESSAGE value="Added Image strings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Image strings." />
+    <MESSAGE value="Added sizes and text strings for call." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sizes and text strings for call." />
   </component>
 </project>
