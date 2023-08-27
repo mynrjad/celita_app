@@ -12,7 +12,7 @@ setdata(BuildContext context) async {
     SchedulerBinding.instance!.addPostFrameCallback((_) {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => OnboardingScreen()),
+        MaterialPageRoute(builder: (context) => WelcomeScreen()),
       );
     });
   });
@@ -29,6 +29,25 @@ class SplashScreen extends StatelessWidget {
         child: RiveAnimation.asset('assets/rive_assets/splash_screen.riv',
             fit: BoxFit.cover, ),
       )
+    );
+  }
+}
+
+class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(),
+      body: Center(
+        child: Container(
+          child: Text(
+            "This Is a Test Try",
+            style: TextStyle(fontSize: 50),
+          ),
+        ),
+      ),
     );
   }
 }
