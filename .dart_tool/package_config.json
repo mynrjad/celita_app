@@ -74,10 +74,22 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///E:/src/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///C:/Users/ryemj/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-5.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "graphs",
+      "rootUri": "file:///C:/Users/ryemj/AppData/Local/Pub/Cache/hosted/pub.dev/graphs-2.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "http",
@@ -170,6 +182,18 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "rive",
+      "rootUri": "file:///C:/Users/ryemj/AppData/Local/Pub/Cache/hosted/pub.dev/rive-0.11.14",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "rive_common",
+      "rootUri": "file:///C:/Users/ryemj/AppData/Local/Pub/Cache/hosted/pub.dev/rive_common-0.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///E:/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -248,7 +272,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-08-27T14:22:24.318537Z",
+  "generated": "2023-08-27T14:50:43.061055Z",
   "generator": "pub",
   "generatorVersion": "3.1.0"
 }
