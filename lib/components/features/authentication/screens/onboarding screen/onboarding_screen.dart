@@ -20,17 +20,20 @@ class CEppOnboardingScreen extends StatelessWidget {
         body: Stack(
       alignment: Alignment.center,
       children: [
-        LiquidSwipe(
-          pages: ObController.pages,
-          liquidController: ObController.controller,
-          onPageChangeCallback: ObController.onPageChangedCallback,
+        GestureDetector(
+          onTap: () => ObController.animatetoNextSlide(context),
+          child: LiquidSwipe(
+            pages: ObController.pages,
+            liquidController: ObController.controller,
+            onPageChangeCallback: ObController.onPageChangedCallback,
+          ),
         ),
 
         //Button
         Positioned(
           bottom: 60.0,
           child: OutlinedButton(
-            onPressed: () => ObController.animatetoNextSlide(),
+            onPressed: () => ObController.animatetoNextSlide(context),
             style: ElevatedButton.styleFrom(
               shape: const CircleBorder(),
               foregroundColor: Colors.white,

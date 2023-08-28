@@ -1,9 +1,9 @@
+import 'package:celita/components/features/authentication/screens/welcome%20screen/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:liquid_swipe/PageHelpers/LiquidController.dart';
 import '../../../constants/colors.dart';
 import '../../../constants/image_strings.dart';
-import '../../../constants/sizes.dart';
 import '../../../constants/text_strings.dart';
 import '../models/model_onboarding.dart';
 import '../screens/onboarding screen/onboarding_page_widget.dart';
@@ -35,10 +35,16 @@ class OnBoardingController extends GetxController {
 
 
   skip() => controller.jumpToPage(page: 1);
-  animatetoNextSlide() {
+  animatetoNextSlide(BuildContext context) {
     int nextPage = controller.currentPage + 1;
-    controller.animateToPage(page: nextPage);
+    if (nextPage >= pages.length) {
+      Get.off(WelcomeScreen());
+    } else {
+      controller.animateToPage(page: nextPage);
+    }
   }
 
-  onPageChangedCallback(int activePageIndex) => currentPage.value = activePageIndex;
+
+  void onPageChangedCallback(int activePageIndex) =>
+      currentPage.value = activePageIndex;
 }

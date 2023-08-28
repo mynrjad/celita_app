@@ -9,10 +9,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added text theme and modified Welcome screen.">
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Fixed dark theme.">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/welcome screen/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/welcome screen/welcome_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/utils/theme/widget theme/text_theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/utils/theme/widget theme/text_theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/controllers/onboarding_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/controllers/onboarding_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693225482984</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fixed dark theme.">
+      <created>1693225906430</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1693225906430</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +278,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added Theme" />
     <MESSAGE value="Added Google Fonts and Text theme." />
     <MESSAGE value="Added dark text theme and app theme." />
@@ -294,6 +302,7 @@
     <MESSAGE value="Modified images and text on Welcome screen." />
     <MESSAGE value="Modified Welcome screen." />
     <MESSAGE value="Added text theme and modified Welcome screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added text theme and modified Welcome screen." />
+    <MESSAGE value="Fixed dark theme." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed dark theme." />
   </component>
 </project>
