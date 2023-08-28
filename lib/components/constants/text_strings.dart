@@ -10,7 +10,7 @@ const CEppOnboardingSubtitle1 =
     "Sanayin ang sarili sa tunog at pagkakabigkas ng dialekto na makatutulong sa kanila upang maatim ang natural at pananalita";
 
 //2
-const CEppOnboardingHeading2 = "MAGKAISA AT ";
+const CEppOnboardingHeading2 = "MAGKAISA AT";
 const CEppOnboardingSubheading2 = "GUMALING";
 const CEppOnboardingSubtitle2 =
     "Paliitin ang agwat ng komunikasyon at magkaisa. Alamin at sanayin ang sarili sa pagsasalita ng Tagalog-Cebuano";

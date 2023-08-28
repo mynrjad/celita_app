@@ -31,6 +31,7 @@ flutter:
     #This is a list of rive assets
      - assets/rive_assets/splash_screen.riv
      - assets/onboarding_assets/onboarding_one.png
+     - assets/onboarding_assets/onboarding_two.png
 
   # fonts:
   #   - family: Schyler
