@@ -16,9 +16,9 @@ class CEppTextTheme {
       fontSize: 15,
     ),
     titleLarge: GoogleFonts.inter(
-      color: Colors.black87,
+      color: Colors.white,
       fontWeight: FontWeight.bold,
-      fontSize: 20,
+      fontSize: 16,
     ),
   );
 
@@ -38,7 +38,7 @@ class CEppTextTheme {
     titleLarge: GoogleFonts.inter(
       color: Colors.white,
       fontWeight: FontWeight.bold,
-      fontSize: 20,
+      fontSize: 16,
     ),
   );
 }
