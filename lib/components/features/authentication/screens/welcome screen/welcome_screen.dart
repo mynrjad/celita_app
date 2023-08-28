@@ -41,6 +41,7 @@ class WelcomeScreen extends StatelessWidget {
                       foregroundColor: Colors.white,
                     ) ,
                     child: Text(CEppWelcomeButton1.toUpperCase(),
+                        style: Theme.of(context).textTheme.titleSmall,
                     ),
                   ),
                 ),
