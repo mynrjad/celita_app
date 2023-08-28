@@ -14,16 +14,17 @@ class OnboardingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return Container(
         padding: const EdgeInsets.all(CEppDefaultSize),
         color: model.bgColor,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Image(image: AssetImage(model.image),
-              height: model.size * 0.4,),
             Column(
               children: [
+                Image(image: AssetImage(model.image),
+                  height: size.height * 0.4,),
                 Text(model.heading,
                     style: Theme.of(context).textTheme.displayMedium),
                 Text(model.subheading,
