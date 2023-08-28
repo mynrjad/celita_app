@@ -9,7 +9,10 @@ import '../../../../constants/text_strings.dart';
 import 'onboarding_page_widget.dart';
 
 class CEppOnboardingScreen extends StatelessWidget {
-  const CEppOnboardingScreen({super.key});
+   CEppOnboardingScreen({super.key});
+
+  final controller = LiquidController();
+  int currentPage=0;
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +38,7 @@ class CEppOnboardingScreen extends StatelessWidget {
         bgColor: CEppOnboardingColor,
       )),
     ];
-    final controller = LiquidController();
+
 
     return Scaffold(
         body: Stack(
@@ -44,13 +47,17 @@ class CEppOnboardingScreen extends StatelessWidget {
         LiquidSwipe(
           pages: pages,
           liquidController: controller,
+          onPageChangeCallback: onPageChangedCallback,
         ),
 
         //Button
         Positioned(
           bottom: 60.0,
           child: OutlinedButton(
-            onPressed: () {},
+            onPressed: () {
+              int nextPage = controller.currentPage + 1;
+              controller.animateToPage(page: nextPage);
+            },
             style: ElevatedButton.styleFrom(
               shape: const CircleBorder(),
               foregroundColor: Colors.white,
@@ -70,7 +77,7 @@ class CEppOnboardingScreen extends StatelessWidget {
           top: 40,
           right: 20,
           child: TextButton(
-            onPressed: () {},
+            onPressed: () => controller.jumpToPage(page:1),
             child: const Text("Skip", style: TextStyle(color: Colors.black87)),
           ),
         ),
@@ -88,5 +95,9 @@ class CEppOnboardingScreen extends StatelessWidget {
         ),
       ],
     ));
+  }
+
+  void onPageChangedCallback(int activePageIndex) {
+    currentPage = activePageIndex;
   }
 }
