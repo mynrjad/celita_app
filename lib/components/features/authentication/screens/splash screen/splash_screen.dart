@@ -1,3 +1,4 @@
+import 'package:celita/components/features/authentication/screens/onboarding%20screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 
@@ -28,7 +29,7 @@ class _SplashContentState extends State<SplashContent> {
     Future.delayed(const Duration(seconds: 4), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => WelcomeScreen()),
+        MaterialPageRoute(builder: (context) => CEppOnboardingScreen()),
       );
     });
   }

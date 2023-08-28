@@ -224,6 +224,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "smooth_page_indicator",
+      "rootUri": "file:///C:/Users/ryemj/AppData/Local/Pub/Cache/hosted/pub.dev/smooth_page_indicator-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "source_span",
       "rootUri": "file:///C:/Users/ryemj/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
@@ -296,7 +302,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-08-27T18:03:14.231436Z",
+  "generated": "2023-08-28T05:58:13.605438Z",
   "generator": "pub",
   "generatorVersion": "3.1.0"
 }
