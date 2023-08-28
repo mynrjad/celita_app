@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added onboarding screen widget.">
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Modified onboarding screen and widgets.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/constants/text_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constants/text_strings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/models/model_onboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/models/model_onboarding.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_page_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_page_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693207878481</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Modified onboarding screen and widgets.">
+      <created>1693210444169</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693210444169</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +214,7 @@
     <MESSAGE value="Started modifying Onboarding screen." />
     <MESSAGE value="Added images on Onboarding Screen." />
     <MESSAGE value="Added onboarding screen widget." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added onboarding screen widget." />
+    <MESSAGE value="Modified onboarding screen and widgets." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified onboarding screen and widgets." />
   </component>
 </project>

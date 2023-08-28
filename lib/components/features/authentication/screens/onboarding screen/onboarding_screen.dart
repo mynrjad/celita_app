@@ -37,10 +37,23 @@ class CEppOnboardingScreen extends StatelessWidget {
 
     return Scaffold(
         body: Stack(
+          alignment: Alignment.center,
       children: [
-        LiquidSwipe(
-          pages: pages,
-        ),
+        LiquidSwipe(pages: pages),
+        Positioned(
+          bottom:60.0,
+          child: OutlinedButton(onPressed: () {  },
+            style: ElevatedButton.styleFrom(
+              shape: const CircleBorder(),
+              foregroundColor: Colors.white,
+            ), child: Container(
+              padding: const EdgeInsets.all(40),
+              decoration: const BoxDecoration(
+                color: CEppSecondaryColor, shape: BoxShape.circle,
+              ),
+              child: Icon(Icons.arrow_forward_ios),
+            ),),
+        )
       ],
     ));
   }
