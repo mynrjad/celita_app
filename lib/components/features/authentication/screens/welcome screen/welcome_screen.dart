@@ -29,12 +29,22 @@ class WelcomeScreen extends StatelessWidget {
                     style: Theme.of(context).textTheme.displaySmall),
               ],
             ),
-            Positioned(
-              bottom: 60.0,
-              child: OutlinedButton(
-                onPressed: () {},
-                child: Text(CEppWelcomeButton1),
-              ),
+            Row(
+              children: [
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      shape: RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0)),
+                      padding: const EdgeInsets.symmetric(vertical: CEppButtonSize),
+                      backgroundColor: CEppSecondaryColor,
+                      foregroundColor: Colors.white,
+                    ) ,
+                    child: Text(CEppWelcomeButton1.toUpperCase(),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
@@ -42,4 +52,3 @@ class WelcomeScreen extends StatelessWidget {
     );
   }
 }
-

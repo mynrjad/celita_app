@@ -9,13 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added popup_banner package.">
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Modified images and text on Welcome screen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/constants/text_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constants/text_strings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/splash screen/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/splash screen/splash_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/constants/colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constants/colors.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/constants/sizes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constants/sizes.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/welcome screen/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/welcome screen/welcome_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693217886867</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Modified images and text on Welcome screen.">
+      <created>1693220962373</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1693220962373</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +278,7 @@
     <MESSAGE value="Sentence correction." />
     <MESSAGE value="Added Home screen file." />
     <MESSAGE value="Added popup_banner package." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added popup_banner package." />
+    <MESSAGE value="Modified images and text on Welcome screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified images and text on Welcome screen." />
   </component>
 </project>
