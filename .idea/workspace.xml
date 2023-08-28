@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Started modifying Onboarding screen.">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added images on Onboarding Screen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/constants/image_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constants/image_strings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/constants/sizes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constants/sizes.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693204087011</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added images on Onboarding Screen.">
+      <created>1693205194489</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693205194489</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +199,7 @@
     <MESSAGE value="Added model for onboarding screen." />
     <MESSAGE value="Added onboarding controller file." />
     <MESSAGE value="Started modifying Onboarding screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started modifying Onboarding screen." />
+    <MESSAGE value="Added images on Onboarding Screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added images on Onboarding Screen." />
   </component>
 </project>
