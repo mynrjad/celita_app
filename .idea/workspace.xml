@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added buttons and active index on Onboarding screen.">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/controllers/onboarding_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/controllers/onboarding_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/models/model_onboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/models/model_onboarding.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_page_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_page_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/onboarding screen/onboarding_screen.dart" afterDir="false" />
-    </list>
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Sentence correction." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693215807254</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added active index animation and controller for Onboarding screen.">
+      <created>1693217142789</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693217142789</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Sentence correction.">
+      <created>1693217332000</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1693217332000</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +248,8 @@
     <MESSAGE value="Added onboarding screen widget." />
     <MESSAGE value="Modified onboarding screen and widgets." />
     <MESSAGE value="Added buttons and active index on Onboarding screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added buttons and active index on Onboarding screen." />
+    <MESSAGE value="Added active index animation and controller for Onboarding screen." />
+    <MESSAGE value="Sentence correction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sentence correction." />
   </component>
 </project>
