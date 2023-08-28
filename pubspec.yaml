@@ -33,6 +33,7 @@ flutter:
      - assets/rive_assets/splash_screen.riv
      - assets/onboarding_assets/onboarding_one.png
      - assets/onboarding_assets/onboarding_two.png
+     - assets/welcome_assets/welcome_one.png
 
   # fonts:
   #   - family: Schyler

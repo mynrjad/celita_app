@@ -16,5 +16,7 @@ const CEppOnboardingSubtitle2 =
     "Paliitin ang agwat ng komunikasyon at magkaisa. Alamin at sanayin ang sarili sa pagsasalita ng Tagalog-Cebuano";
 
 //Welcome Screen
-const CEppWelcomeHeading1 = "TARA NA'T MAGSALITA";
+const CEppWelcomeHeading1 = "TARA NA'T";
+const CEppWelcomeSubheading1 = "MAGSALITA";
 const CEppWelcomeSubtitle1 = "Maligayang pagdating sa Celita";
+const CEppWelcomeButton1 = "Magsimula Isalin";

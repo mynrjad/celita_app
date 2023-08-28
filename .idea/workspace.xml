@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added Home screen file." />
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added popup_banner package.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/constants/text_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constants/text_strings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/splash screen/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/splash screen/splash_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/welcome screen/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/welcome screen/welcome_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693217579015</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added popup_banner package.">
+      <created>1693217886867</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693217886867</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +272,7 @@
     <MESSAGE value="Added active index animation and controller for Onboarding screen." />
     <MESSAGE value="Sentence correction." />
     <MESSAGE value="Added Home screen file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Home screen file." />
+    <MESSAGE value="Added popup_banner package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added popup_banner package." />
   </component>
 </project>
