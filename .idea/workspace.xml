@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Connected Welcome screen to Onboarding screen.">
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/translation_screen/translation_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/translation_screen/translation_screen.dart" afterDir="false" />
-    </list>
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Modified translator screen." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694023047117</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Modified translator screen.">
+      <created>1694023096137</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1694023096137</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,7 +300,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Google Fonts and Text theme." />
     <MESSAGE value="Added dark text theme and app theme." />
     <MESSAGE value="Added rive and splash screen." />
     <MESSAGE value="Animation for splash screen navigation to welcome screen test." />
@@ -320,6 +324,7 @@
     <MESSAGE value="Added text theme and modified Welcome screen." />
     <MESSAGE value="Fixed dark theme." />
     <MESSAGE value="Connected Welcome screen to Onboarding screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected Welcome screen to Onboarding screen." />
+    <MESSAGE value="Modified translator screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified translator screen." />
   </component>
 </project>
