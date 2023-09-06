@@ -5,7 +5,7 @@ class TranslatorScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Speech Translation App'),
+        title: Text('Celita'),
       ),
       body: Center(
         child: Column(
