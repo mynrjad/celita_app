@@ -6,58 +6,60 @@ class TranslatorScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Celita'),
+        backgroundColor: Color(0xFFFFBC57), // Set the color to FFBC57
       ),
-      body: Center(
-        child: Column(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          // Translation Box
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(16.0),
+              alignment: Alignment.center,
+              color: Colors.grey.shade200,
+              child: Text(
+                'Translation Box',
+                style: TextStyle(fontSize: 18),
+              ),
+            ),
+          ),
+          // Translated Text Box
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(16.0),
+              alignment: Alignment.center,
+              color: Colors.grey.shade300,
+              child: Text(
+                'Translated Text Box',
+                style: TextStyle(fontSize: 18),
+              ),
+            ),
+          ),
+        ],
+      ),
+      bottomNavigationBar: BottomAppBar(
+        color: Color(0xFFFFBC57), // Set the color to FFBC57
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'Translate Speech:',
-              style: TextStyle(fontSize: 18),
-            ),
-            SizedBox(height: 20),
-            Container(
-              width: 300,
-              child: TextField(
-                readOnly: true,
-                decoration: InputDecoration(
-                  hintText: 'Spoken text will appear here',
-                  border: OutlineInputBorder(),
-                ),
-              ),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
+            IconButton(
+              icon: Icon(Icons.history, color: Colors.white),
               onPressed: () {
-                // Implement speech recognition logic here
+                // Add history icon's onPressed logic here
               },
-              child: Text('Start Listening'),
             ),
-            SizedBox(height: 20),
-            ElevatedButton(
+            IconButton(
+              icon: Icon(Icons.mic, color: Colors.white),
               onPressed: () {
-                // Implement translation logic here
+                // Add mic icon's onPressed logic here
               },
-              child: Text('Translate'),
             ),
-            SizedBox(height: 20),
-            Text(
-              'Translated Text:',
-              style: TextStyle(fontSize: 18),
-            ),
-            SizedBox(height: 10),
-            Container(
-              width: 300,
-              height: 100,
-              decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey),
-              ),
-              child: Center(
-                child: Text(
-                  'Translated Text will appear here',
-                  style: TextStyle(fontSize: 16),
-                ),
-              ),
+            IconButton(
+              icon: Icon(Icons.favorite, color: Colors.white),
+              onPressed: () {
+                // Add favorite icon's onPressed logic here
+              },
             ),
           ],
         ),
