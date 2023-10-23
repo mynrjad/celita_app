@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../../constants/colors.dart';
+import '../translation_screen/translation_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -33,15 +34,20 @@ class WelcomeScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      // Navigate to the NextScreen when the button is pressed
+                      Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => TranslatorScreen(),
+                      ));
+                    },
                     style: ElevatedButton.styleFrom(
-                      shape: RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0)),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                       padding: const EdgeInsets.symmetric(vertical: CEppButtonSize),
                       backgroundColor: CEppSecondaryColor,
                       foregroundColor: Colors.white,
                     ) ,
                     child: Text(CEppWelcomeButton1.toUpperCase(),
-                        style: Theme.of(context).textTheme.titleLarge,
+                      style: Theme.of(context).textTheme.titleLarge,
                     ),
                   ),
                 ),

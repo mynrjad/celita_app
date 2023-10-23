@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Modified a few designs in Translation screen.">
-      <change afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/favorite screen/favorite_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/history screen/history_screen.dart" afterDir="false" />
+    <list default="true" id="70e1d5ab-0dcf-4084-90a9-3a1c1b0b17ae" name="Changes" comment="Added History and Favorite screen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/features/authentication/screens/translation_screen/translation_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/features/authentication/screens/translation_screen/translation_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,5 +335,8 @@
     <MESSAGE value="Modified translator screen." />
     <MESSAGE value="Modified a few designs in Translation screen." />
     <option name="LAST_COMMIT_MESSAGE" value="Modified a few designs in Translation screen." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/celita$E__celita_windows_flutter_ephemeral__plugin_symlinks_rive_common_android_build_gradle.ic" NAME="$PROJECT_DIR$/windows/flutter/ephemeral/.plugin_symlinks/rive_common/android/build.gradle Coverage Results" MODIFIED="1698068969937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
