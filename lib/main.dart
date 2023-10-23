@@ -1,6 +1,4 @@
 import 'package:celita/components/features/authentication/screens/splash%20screen/splash_screen.dart';
-import 'package:celita/components/features/authentication/screens/translation_screen/translation_screen.dart';
-import 'package:celita/components/features/authentication/screens/welcome%20screen/welcome_screen.dart';
 import 'package:celita/components/utils/theme/widget%20theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -24,7 +22,7 @@ class _CelitaMainAppState extends State<CelitaMainApp> {
       darkTheme: CEppTheme.darkTheme,
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      home: TranslatorScreen(),
+      home: SplashScreen(),
     );
   }
 }
