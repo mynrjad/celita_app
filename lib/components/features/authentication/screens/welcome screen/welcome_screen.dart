@@ -2,9 +2,9 @@ import 'package:celita/components/constants/image_strings.dart';
 import 'package:celita/components/constants/sizes.dart';
 import 'package:celita/components/constants/text_strings.dart';
 import 'package:flutter/material.dart';
-
 import '../../../../constants/colors.dart';
 import '../translation_screen/translation_screen.dart';
+
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -36,7 +36,7 @@ class WelcomeScreen extends StatelessWidget {
                     onPressed: () {
                       // Navigate to the NextScreen when the button is pressed
                       Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => TranslatorScreen(),
+                        builder: (context) => HomePage(),
                       ));
                     },
                     style: ElevatedButton.styleFrom(
