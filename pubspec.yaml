@@ -19,6 +19,9 @@ dependencies:
   smooth_page_indicator: ^1.1.0
   popup_banner: ^1.0.0
   speech_to_text: ^6.3.0
+  google_speech: ^2.0.1
+  permission_handler: ^8.1.4+2
+  loading_indicator: ^3.0.1
 
 dev_dependencies:
   flutter_test:
